@@ -19,6 +19,7 @@ if (isset($_POST['name'])) && isset($_POST['email']) {
   $headers .= "Content-type: text/html; charset-utf-8";  
   //send
   $send = mail($to, $subject, $body, $headers);
+  header("Location: index.html");
   if ($send) {
     echo '<br>';
     echo 'Thanks for conacting PDK Contracting! We will be in touch soon!';
