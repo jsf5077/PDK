@@ -183,6 +183,9 @@ blockquote {
   }
 }
 
+#logo-main {
+  width: 50%;
+}
 /* iPhone X */
 @media (max-width: 480px) {
   #logo-main {
@@ -198,16 +201,23 @@ blockquote {
 }
 
 /* iPad Pro Vertical*/
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (max-height: 1366px) {
   #logo-main {
     width: 75%;
   }
 }
 
 /* iPad Pro Horizontal*/
-@media (max-width: 1366px) {
+@media (max-width: 1366px) and (max-height: 1024px) {
   #logo-main {
     width: 75%;
+  }
+}
+
+/* desktop*/
+@media (max-width: 1366px) and (max-height: 768px) {
+  #logo-main {
+    width: 50%;
   }
 }
 
