@@ -11,23 +11,14 @@ https://www.tooplate.com/view/2117-infinite-loop
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.2em;
-  color: black;
+  color: #707070;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-
-  /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
-}
-
 a {
   transition: all 0.3s ease;
-  color: #38b;
+  color: rgb(27, 171, 60);
 }
 
 a:hover,
@@ -64,7 +55,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37a;
+  color: rgb(27, 171, 60);
 }
 
 .tm-font-big {
@@ -73,14 +64,14 @@ blockquote {
 
 .tm-btn-primary {
   color: white;
-  background-color: #369;
+  background-color: rgb(27, 171, 60);
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  color: rgb(0, 139, 19);
+  background-color: #38b;
 }
 
 /* Navbar */
@@ -89,13 +80,13 @@ blockquote {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(39, 39, 39, 0.486);
+  background-color: transparent;
   transition: all 0.3s ease;
 }
 
 .tm-navbar.scroll {
-  background-color: white;
-  border-bottom: 1px solid #e9ecef;
+  background-color: #2f2f2f;
+  border-bottom: 1px solid #2f2f2f;
 }
 
 .navbar-brand {
@@ -106,11 +97,11 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: rgb(0, 139, 19);
+  color: rgb(27, 171, 60);
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: rgb(0, 139, 19);
+  color: rgb(27, 171, 60);
 }
 
 .nav-item {
@@ -122,14 +113,14 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: rgb(0, 139, 19);
+  color: rgb(27, 171, 60);
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
   color: #fff;
-  background-color: rgb(0, 139, 19);
+  background-color: rgb(27, 171, 60);
 }
 
 .navbar-toggler {
@@ -154,7 +145,7 @@ blockquote {
 /* Hero */
 
 #infinite {
-  background-color: black;
+  background-color: #222;
   background-image: url(../img/pdk-main2.jpg);
   background-repeat: no-repeat;
   height: 100vh;
@@ -170,7 +161,6 @@ blockquote {
 
 @media (min-height: 830px) {
   #infinite {
-    background-size: cover;
     background-position: center -210px;
   }
 }
@@ -193,9 +183,35 @@ blockquote {
   }
 }
 
-.tm-hero-text-container {
-  background-color: rgba(0, 0, 0, 0.5);
+/* iPhone X */
+@media (max-width: 480px) {
+  #logo-main {
+    width: 75%;
+  }
+}
 
+/* iPad */
+@media (max-width: 768px) {
+  #logo-main {
+    width: 75%;
+  }
+}
+
+/* iPad Pro Vertical*/
+@media (max-width: 1024px) {
+  #logo-main {
+    width: 75%;
+  }
+}
+
+/* iPad Pro Horizontal*/
+@media (max-width: 1366px) {
+  #logo-main {
+    width: 75%;
+  }
+}
+
+.tm-hero-text-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -233,6 +249,26 @@ blockquote {
   }
 }
 
+.tm-down-arrow-link {
+  display: block;
+  margin-top: 18%;
+}
+
+.tm-down-arrow {
+  color: #fff;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
+}
+
+.tm-down-arrow:hover,
+.tm-down-arrow:focus {
+  color: #fff;
+  background: #37a;
+  padding: 20px 50px;
+}
+
 /* Introduction */
 
 #introduction {
@@ -258,16 +294,16 @@ blockquote {
 }
 
 /* Testimonials */
-#testimonials {
+/* #testimonials {
   color: white;
   background-image: url(../img/infinite-loop-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-}
+} */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   #testimonials {
     background-image: url(../img/infinite-loop-02-mobile.jpg);
   }
@@ -276,9 +312,9 @@ blockquote {
 .tm-testimonials-content {
   position: relative;
   z-index: 100;
-}
+} */
 
-.tm-bg-overlay {
+/* .tm-bg-overlay {
   width: 100%;
   height: 100%;
   background: rgba(20, 70, 80, 0.2);
@@ -310,7 +346,7 @@ blockquote {
   text-align: right;
   font-style: italic;
   font-size: 1.1rem;
-}
+} */
 
 /* Work */
 
@@ -549,7 +585,7 @@ figure.effect-honey:hover h2 i {
 .tm-btn-submit {
   font-size: 0.9em;
   color: #fff;
-  background-color: #369;
+  background-color: rgb(27, 171, 60);
   width: 50%;
   margin-bottom: 60px;
 }
@@ -597,7 +633,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38b;
+  color: rgb(27, 171, 60);
   text-decoration: none;
 }
 
