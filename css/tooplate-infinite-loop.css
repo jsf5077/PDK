@@ -303,6 +303,14 @@ blockquote {
   padding: 20px 0 30px 0;
 }
 
+.contact-icon {
+  color: rgb(27, 171, 60);
+}
+
+.fas-phone-square {
+  color: rgb(27, 171, 60);
+}
+
 /* Testimonials */
 /* #testimonials {
   color: white;
@@ -552,7 +560,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  background-image: url(../img/PDK-bathroom.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
