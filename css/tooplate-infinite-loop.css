@@ -155,7 +155,7 @@ blockquote {
 
 #infinite {
   background-color: black;
-  background-image: url(../img/pdk-main.jpg);
+  background-image: url(../img/pdk-main2.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -168,14 +168,9 @@ blockquote {
   }
 }
 
-@media (min-height: 1300) {
-  #infinite {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
-  }
-}
-
 @media (min-height: 830px) {
   #infinite {
+    background-size: cover;
     background-position: center -210px;
   }
 }
