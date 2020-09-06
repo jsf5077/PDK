@@ -11,7 +11,7 @@ https://www.tooplate.com/view/2117-infinite-loop
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.2em;
-  color: #707070;
+  color: black;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -296,7 +296,7 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37a;
+  color: rgb(27, 171, 60);
 }
 
 .tm-continue {
