@@ -142,7 +142,7 @@ blockquote {
   color: #707070;
 }
 
-/* Hero */
+/* Hero */ /*///////////////////////////////////////////////////////////////////////*/
 
 #infinite {
   background-color: #222;
@@ -555,12 +555,12 @@ figure.effect-honey:hover h2 i {
   padding-top: 30px;
 }
 
-/* Contact */
+/* Contact */ /*///////////////////////////////////////////////////////////////////////*/
 
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/pdk-bathroom.jpg);
+  background-image: url(../img/pdk-main2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
