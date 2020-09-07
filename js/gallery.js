@@ -12,7 +12,9 @@ for (var i = 0; i < array.length; i++) {
       array[i].image +
       "'>" +
       "<figure class='effect-honey tm-gallery-item'>" +
-      "<img src='img/gallery-tn-06.jpg' alt='" +
+      "<img src='" +
+      array[i].thumbnail +
+      "' alt='" +
       array[i].imageAlt +
       "' class='img-fluid' />" +
       "<figcaption><h2><i>" +
