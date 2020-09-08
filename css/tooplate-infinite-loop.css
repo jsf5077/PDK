@@ -8,6 +8,16 @@ https://www.tooplate.com/view/2117-infinite-loop
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  }*/
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.2em;
