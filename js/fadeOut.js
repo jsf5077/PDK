@@ -25,5 +25,3 @@ function scrollHandler() {
 }
 
 window.addEventListener("scroll", scrollHandler);
-
-Resources;
