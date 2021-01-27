@@ -39,6 +39,10 @@ a {
   color: rgb(27, 171, 60);
 }
 
+#navbarText {
+  font-size: 0.7em;
+}
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -64,6 +68,11 @@ blockquote {
 
 .tm-section-pad-top {
   padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.tm-gallery-pad-top {
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
@@ -93,6 +102,10 @@ blockquote {
 }
 
 /* Navbar */
+
+.logo-nav {
+  max-height: 36px;
+}
 
 .tm-navbar {
   position: fixed;

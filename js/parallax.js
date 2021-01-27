@@ -80,8 +80,10 @@ $(function () {
   $(window).scroll(function (e) {
     if ($(document).scrollTop() > 120) {
       $(".tm-navbar").addClass("scroll");
+      $(".logo-nav").css("opacity", 100);
     } else {
       $(".tm-navbar").removeClass("scroll");
+      $(".logo-nav").css("opacity", 0);
     }
   });
 
