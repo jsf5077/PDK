@@ -85,6 +85,10 @@ blockquote {
   color: rgb(27, 171, 60);
 }
 
+.tm-testimonial {
+  text-align: left;
+}
+
 .tm-font-big {
   font-size: 1.25rem;
 }
@@ -342,61 +346,6 @@ blockquote {
 .fas-phone-square {
   color: rgb(27, 171, 60);
 }
-
-/* Testimonials */
-/* #testimonials {
-  color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-} */
-
-/* @media (max-width: 991px) {
-  #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
-  }
-}
-
-.tm-testimonials-content {
-  position: relative;
-  z-index: 100;
-} */
-
-/* .tm-bg-overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(20, 70, 80, 0.2);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-}
-
-.tm-testimonials-carousel {
-  max-width: 1050px;
-  margin: 0 auto;
-}
-
-.tm-testimonial-item {
-  max-width: 290px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-.tm-testimonial-item img {
-  border-radius: 50%;
-  margin-bottom: 35px;
-}
-
-.tm-testimonial-item figcaption {
-  text-align: right;
-  font-style: italic;
-  font-size: 1.1rem;
-} */
 
 /* Work */
 
@@ -729,6 +678,10 @@ p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .tm-testimonial {
+    text-align: center;
   }
 
   .tm-intro-img {
