@@ -5,9 +5,10 @@ Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
 
 */
-/* new line of code */
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
 html {
   overflow: scroll;
@@ -17,6 +18,12 @@ html {
   width: 0px; /* remove scrollbar space /
   background: transparent; / optional: just make scrollbar invisible /
   }*/
+}
+
+/* Fade In Element */
+
+.fadeIn {
+  opacity: 1;
 }
 
 body {
@@ -103,7 +110,8 @@ blockquote {
 .navbar-brand {
   color: white;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: "EB Garamond", serif;
 }
 
 .navbar-brand:hover,
@@ -228,7 +236,7 @@ blockquote {
 /* desktop*/
 @media (max-width: 1366px) and (max-height: 768px) {
   #logo-main {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -385,9 +393,15 @@ blockquote {
   font-size: 0.9rem;
 }
 
+.tm-gallery-desc {
+  max-width: 80%;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
 
 .tm-gallery-item {

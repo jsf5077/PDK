@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>PDK Contracting</title>
     <link rel="stylesheet" href="fontawesome-5.5/css/all.css" />
-    <!-- <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" /> -->
     <link rel="stylesheet" href="slick/slick.css" />
     <link rel="stylesheet" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
@@ -62,7 +61,7 @@ https://www.tooplate.com/view/2117-infinite-loop
       </nav>
 
       <div class="text-center tm-hero-text-container">
-        <div class="tm-hero-text-container-inner">
+        <div class="tm-hero-text-container-inner" id="fadeOut">
           <img
             id="logo-main"
             src="img/pdk-logo-shadow.png"
@@ -73,10 +72,9 @@ https://www.tooplate.com/view/2117-infinite-loop
       </div>
     </section>
 
-    <section id="whatwedo" class="tm-section-pad-top">
+    <section id="whatwedo" class="tm-section-pad-top fadeIn">
       <div class="container">
         <div class="row tm-content-box">
-          <!-- first row -->
           <div class="col-lg-12 col-xl-12">
             <div class="tm-intro-text-container">
               <h2 class="tm-text-primary mb-4 tm-section-title">What We Do</h2>
@@ -92,75 +90,9 @@ https://www.tooplate.com/view/2117-infinite-loop
             </div>
           </div>
         </div>
-        <!-- first row -->
-
-        <div class="row tm-content-box">
-          <!-- second row -->
-          <div class="col-lg-1">
-            <i class="fas fa-3x fa-home text-center tm-icon"></i>
-          </div>
-          <div class="col-lg-5">
-            <div class="tm-intro-text-container">
-              <h2 class="tm-text-primary mb-4">Your Home is Our Home</h2>
-              <p class="mb-4 tm-intro-text">
-                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
-                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
-                urna.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-1">
-            <i class="fas fa-3x fa-drafting-compass text-center tm-icon"></i>
-          </div>
-          <div class="col-lg-5">
-            <div class="tm-intro-text-container">
-              <h2 class="tm-text-primary mb-4">Every Detail Matters</h2>
-              <p class="mb-4 tm-intro-text">
-                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
-                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
-                urna.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- second row -->
-
-        <div class="row tm-content-box">
-          <!-- third row -->
-          <div class="col-lg-1">
-            <i class="fas fa-3x fa-hammer text-center tm-icon"></i>
-          </div>
-          <div class="col-lg-5">
-            <div class="tm-intro-text-container">
-              <h2 class="tm-text-primary mb-4">Quality Service</h2>
-              <p class="mb-4 tm-intro-text">
-                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
-                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
-                urna.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-1">
-            <i class="fas fa-3x fa-thumbs-up text-center tm-icon"></i>
-          </div>
-          <div class="col-lg-5">
-            <div class="tm-intro-text-container">
-              <h2 class="tm-text-primary mb-4">Satisfaction Guaranteed!</h2>
-              <p class="mb-4 tm-intro-text">
-                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
-                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
-                urna.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- third row -->
-      </div>
     </section>
 
-    <section id="testimonials"></section>
+    <!-- <section id="testimonials"></section> -->
 
     <!--  <section id="testimonials">
       <div class="container tm-testimonials-content">
@@ -249,15 +181,14 @@ https://www.tooplate.com/view/2117-infinite-loop
       <div class="tm-bg-overlay"></div>
     </section>-->
 
-    <section id="gallery" class="tm-section-pad-top">
+    <section id="gallery">
       <div class="container tm-container-gallery">
         <div class="row">
           <div class="text-center col-12">
             <h2 class="tm-text-primary tm-section-title mb-4">Gallery</h2>
-            <p class="mx-auto tm-section-desc">
+            <p class="mx-auto tm-gallery-desc">
               Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
-              elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
-              urna, lobortis eu arcu a, aliquet tristique urna.
+              elit ac metus lacinia, sed iaculis nibh semper. 
             </p>
           </div>
         </div>
@@ -271,10 +202,78 @@ https://www.tooplate.com/view/2117-infinite-loop
       </div>
     </section>
 
+    <section id="whatwedo" class="fadeIn">
+      <div class="container">
+        <div class="row tm-content-box">
+        <!-- second row -->
+        <div class="col-lg-1">
+            <i class="fas fa-3x fa-home text-center tm-icon"></i>
+          </div>
+          <div class="col-lg-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mb-4">Your Home is Our Home</h2>
+              <p class="mb-4 tm-intro-text">
+                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
+                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
+                urna.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-1">
+            <i class="fas fa-3x fa-drafting-compass text-center tm-icon"></i>
+          </div>
+          <div class="col-lg-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mb-4">Every Detail Matters</h2>
+              <p class="mb-4 tm-intro-text">
+                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
+                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
+                urna.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <!-- second row -->
+
+        <div class="row tm-content-box">
+        <!-- third row -->
+        <div class="col-lg-1">
+            <i class="fas fa-3x fa-hammer text-center tm-icon"></i>
+          </div>
+          <div class="col-lg-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mb-4">Quality Service</h2>
+              <p class="mb-4 tm-intro-text">
+                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
+                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
+                urna.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-1">
+            <i class="fas fa-3x fa-thumbs-up text-center tm-icon"></i>
+          </div>
+          <div class="col-lg-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mb-4">Satisfaction Guaranteed!</h2>
+              <p class="mb-4 tm-intro-text">
+                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare
+                elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est
+                urna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- third row -->
+      </div>
+    </section>
+
     <!-- Contact -->
     <section id="contact" class="tm-section-pad-top tm-parallax-2">
-      <div class="container tm-container-contact">
-        <div class="row">
+      <div class="container tm-container-contact ">
+        <div class="row ">
           <div class="text-center col-12">
             <h2 class="tm-section-title mb-4">Contact Us</h2>
             <p class="mb-5">
@@ -336,19 +335,9 @@ https://www.tooplate.com/view/2117-infinite-loop
             </div>
 
             <div class="contact-item">
-              <i class="fas fa-2x fa-map-marker-alt mr-4 pb-2 contact-icon"></i>
-              <span class="mb-0 pb-2">Our Location</span>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.012982915933!2d-75.15037638507546!3d40.386404865408124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4034e730737b9%3A0x583a8bcb6ced7ae9!2s4937%20Stump%20Rd%2C%20Pipersville%2C%20PA%2018947!5e0!3m2!1sen!2sus!4v1599429523516!5m2!1sen!2sus"
-                width="400"
-                height="300"
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
-              ></iframe>
+              <i class="fab fa-2x fa-facebook-square mr-4"
+              style="color: rgb(27, 171, 60)"></i>
+              <span class="mb-0 pb-2"><a href="https://www.facebook.com/pdkcontracting" style="color: rgb(255, 255, 255)">Follow us on Facebook</a></span>
             </div>
 
             <div class="contact-item">
@@ -375,6 +364,8 @@ https://www.tooplate.com/view/2117-infinite-loop
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/fadeIn.js"></script>
+    <script src="js/fadeOut.js"></script>
     <script src="js/easing.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -47,7 +47,8 @@ var background_image_parallax_2 = function ($object, multiplier) {
 
   $(window).scroll(function () {
     if ($(window).width() > 768) {
-      var firstTop = $object.offset().top,
+      //removed .top from end of bottom line
+      var firstTop = $object.offset(),
         pos = $(window).scrollTop(),
         yPos = Math.round(multiplier * (firstTop - pos) - 186);
 
