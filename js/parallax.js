@@ -157,9 +157,12 @@ $(function () {
   // Gallery
   $(".tm-gallery").slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     slidesToShow: 5,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    centerMode: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1199,
