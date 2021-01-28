@@ -26,13 +26,17 @@ html {
   opacity: 1;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.2em;
   color: black;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 a {
@@ -223,17 +227,11 @@ blockquote {
 #logo-main {
   width: 50%;
 }
-/* iPhone X */
-@media (max-width: 480px) {
-  #logo-main {
-    width: 75%;
-  }
-}
 
-/* iPad */
-@media (max-width: 768px) {
+/* 4k*/
+@media (min-width: 2559px) {
   #logo-main {
-    width: 75%;
+    width: 35%;
   }
 }
 
@@ -257,6 +255,27 @@ blockquote {
     width: 40%;
   }
 }
+
+/* iPad */
+@media (max-width: 768px) {
+  #logo-main {
+    width: 75%;
+  }
+}
+
+/* iPhone X */
+@media (max-width: 480px) {
+  #logo-main {
+    width: 75%;
+  }
+}
+
+/* iPhone X
+@media (max-width: 480px) {
+  #logo-main {
+    width: 75%;
+  }
+} */
 
 .tm-hero-text-container {
   width: 100%;
